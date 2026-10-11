@@ -1,0 +1,61 @@
+{
+  "mode": "anthropic_message_batches",
+  "cache_ttl": "1h",
+  "expert_prompt_cache": "disabled",
+  "temperature_sent": false,
+  "documented_api_default_temperature": 1.0,
+  "batch_discount": 0.5,
+  "by_model": {
+    "claude-haiku-4-5-20251001": {
+      "completed_calls": 19648,
+      "cost_usd": 15.003371499999444,
+      "tokens": {
+        "input_tokens": 23609008,
+        "output_tokens": 1279547,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "pending_reserved_usd": 0.0,
+      "mean_cost_per_call_usd": 0.0007636080771579522,
+      "planned_full_calls": 19648
+    },
+    "claude-sonnet-4-6": {
+      "completed_calls": 3040,
+      "cost_usd": 9.482358000000001,
+      "tokens": {
+        "input_tokens": 5177712,
+        "output_tokens": 228772,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "pending_reserved_usd": 0.0,
+      "mean_cost_per_call_usd": 0.0031191967105263165,
+      "planned_full_calls": 3040
+    }
+  },
+  "ledger_total_usd": 24.4857295,
+  "pending_reserved_usd": 0.0,
+  "projected_full_usd": 24.485729499999444,
+  "projection_with_30_percent_margin_usd": 31.831448349999278,
+  "projection_is_not_a_guarantee": true,
+  "limitation": "Batch cache hits are best-effort and batches may take up to 24h. Pre-submit reservations use exact Token Count API input tokens, price all input at the more expensive 1h cache-write rate, and reserve max output. Anthropic notes Workspace spend limits can be exceeded slightly by high-throughput batches; this ledger therefore also chunks submissions below the local cap.",
+  "prices_usd_per_million_standard": {
+    "claude-haiku-4-5-20251001": {
+      "input": 1,
+      "output": 5,
+      "write": 1.25,
+      "read": 0.1
+    },
+    "claude-sonnet-4-6": {
+      "input": 3,
+      "output": 15,
+      "write": 3.75,
+      "read": 0.3
+    }
+  },
+  "price_checked": "2026-10-02"
+}

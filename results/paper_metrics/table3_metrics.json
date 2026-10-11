@@ -1,0 +1,72 @@
+{
+  "advise": {
+    "degree_completion": {
+      "scheduled_n": 21440,
+      "legal_pct": 67.83582089552239,
+      "regret": 0.2882377979568672,
+      "regret_n": 14096
+    },
+    "selected_obligations": {
+      "scheduled_n": 2880,
+      "legal_pct": 81.94444444444444,
+      "regret": 0.7245206861755802,
+      "regret_n": 1982
+    }
+  },
+  "clarify": {
+    "degree_completion": {
+      "scheduled_n": 21440,
+      "legal_pct": 59.73880597014925,
+      "regret": 0.16873089914749878,
+      "regret_n": 12434
+    },
+    "selected_obligations": {
+      "scheduled_n": 2880,
+      "legal_pct": 69.02777777777777,
+      "regret": 0.5477203647416413,
+      "regret_n": 1645
+    }
+  },
+  "retrieve": {
+    "degree_completion": {
+      "scheduled_n": 21440,
+      "legal_pct": 57.83582089552239,
+      "regret": 0.38441647991725564,
+      "regret_n": 11602
+    },
+    "selected_obligations": {
+      "scheduled_n": 2880,
+      "legal_pct": 67.5,
+      "regret": 0.5006075334143378,
+      "regret_n": 1646
+    }
+  },
+  "full": {
+    "degree_completion": {
+      "scheduled_n": 21440,
+      "legal_pct": 61.399253731343286,
+      "regret": 0.47379147305779734,
+      "regret_n": 12267
+    },
+    "selected_obligations": {
+      "scheduled_n": 2880,
+      "legal_pct": 60.27777777777778,
+      "regret": 0.5722811671087533,
+      "regret_n": 1508
+    }
+  },
+  "defer": {
+    "degree_completion": {
+      "scheduled_n": 10720,
+      "legal_pct": 49.14179104477612,
+      "regret": 0.3616288492706645,
+      "regret_n": 4936
+    },
+    "selected_obligations": {
+      "scheduled_n": 1440,
+      "legal_pct": 61.666666666666664,
+      "regret": 0.4771838331160365,
+      "regret_n": 767
+    }
+  }
+}

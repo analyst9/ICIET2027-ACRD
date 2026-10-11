@@ -1,0 +1,27 @@
+{
+  "schema": "uth_ds_llm_descriptive_5",
+  "mock": false,
+  "run_identity": "3c323d0b5b10e5ead60c37173b3cfd767aa634828da7e2fc5dcc0c5acbcc8dbd",
+  "instances": 24320,
+  "cases": 3008,
+  "samples_per_prompt": 2,
+  "suite": "coverage",
+  "expert_scope": "all",
+  "expert_samples_per_prompt": 1,
+  "expert_scenarios": 376,
+  "base_profiles": 376,
+  "academic_records": 181,
+  "decision_states": 233,
+  "unique_prompt_conditions": 752,
+  "unique_choice_samples": 1504,
+  "clarification_transcripts": 3008,
+  "new_mock_calls": 0,
+  "live_api_calls": 0,
+  "usage_this_run": {},
+  "models": {
+    "target": "claude-haiku-4-5-20251001",
+    "student": "claude-haiku-4-5-20251001",
+    "expert": "claude-sonnet-4-6"
+  },
+  "scope": "degree completion and selected-obligation subproblems reported separately; no empirical students or trained policy"
+}

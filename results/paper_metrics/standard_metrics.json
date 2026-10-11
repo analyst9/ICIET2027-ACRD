@@ -1,0 +1,86 @@
+{
+  "original": {
+    "advise": {
+      "n": 24320,
+      "format_fail_pct": 0.09868421052631579,
+      "legal_pct": 69.50657894736842,
+      "completed_pct": 66.11019736842105,
+      "completed_legal_n": 16078,
+      "regret": 0.3420201517601692
+    },
+    "clarify": {
+      "n": 24320,
+      "format_fail_pct": 0.24671052631578946,
+      "legal_pct": 60.838815789473685,
+      "completed_pct": 57.890625,
+      "completed_legal_n": 14079,
+      "regret": 0.21358050997940195
+    },
+    "retrieve": {
+      "n": 24320,
+      "format_fail_pct": 0.5263157894736842,
+      "legal_pct": 58.98026315789474,
+      "completed_pct": 54.46546052631579,
+      "completed_legal_n": 13246,
+      "regret": 0.3995168352710252
+    },
+    "full": {
+      "n": 24320,
+      "format_fail_pct": 0.3125,
+      "legal_pct": 61.266447368421055,
+      "completed_pct": 56.63240131578947,
+      "completed_legal_n": 13773,
+      "regret": 0.4850795033761708
+    },
+    "defer": {
+      "n": 12160,
+      "format_fail_pct": 10.657894736842104,
+      "legal_pct": 50.625,
+      "completed_pct": 46.91611842105263,
+      "completed_legal_n": 5705,
+      "regret": 0.3770376862401402
+    }
+  },
+  "rerun": {
+    "advise": {
+      "n": 24320,
+      "format_fail_pct": 0.09868421052631579,
+      "legal_pct": 69.50657894736842,
+      "completed_pct": 66.11019736842105,
+      "completed_legal_n": 16078,
+      "regret": 0.3420201517601692
+    },
+    "clarify": {
+      "n": 24320,
+      "format_fail_pct": 0.24671052631578946,
+      "legal_pct": 60.838815789473685,
+      "completed_pct": 57.890625,
+      "completed_legal_n": 14079,
+      "regret": 0.21301228780453157
+    },
+    "retrieve": {
+      "n": 24320,
+      "format_fail_pct": 0.4934210526315789,
+      "legal_pct": 58.98026315789474,
+      "completed_pct": 54.473684210526315,
+      "completed_legal_n": 13248,
+      "regret": 0.3988526570048309
+    },
+    "full": {
+      "n": 24320,
+      "format_fail_pct": 0.3125,
+      "legal_pct": 61.266447368421055,
+      "completed_pct": 56.640625,
+      "completed_legal_n": 13775,
+      "regret": 0.484573502722323
+    },
+    "defer": {
+      "n": 12160,
+      "format_fail_pct": 10.625,
+      "legal_pct": 50.625,
+      "completed_pct": 46.89967105263158,
+      "completed_legal_n": 5703,
+      "regret": 0.37716991057338245
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "purpose": "Isolated rerun of the 204 pilot-derived requests under the frozen full protocol",
+  "ledger_before_sha256": "7286dfb7d87796f7502a1a62b5435c208c24e7947d34791f05d3c2837195348f",
+  "ledger_after_sha256": "72166721b970e8215f2f0d4708adb34ef59cacb2e2f0e7874df6b4840cebe0c5",
+  "removed_calls": 204,
+  "removed_by_stage": {
+    "round1": 156,
+    "round2_student": 24,
+    "round3_clarify": 24
+  },
+  "retained_complete_calls": 22484,
+  "original_batches_preserved": 16,
+  "original_call_archive": "removed_pilot_calls.json (archived by the authors; superseded responses are not used and not distributed)"
+}

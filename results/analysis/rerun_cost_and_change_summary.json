@@ -1,0 +1,27 @@
+{
+  "new_batches": [
+    "msgbatch_01RXEVafwEDDoz8Na1angxko",
+    "msgbatch_01WuzkqMQaoeYkf6imeSWoeR",
+    "msgbatch_01YASVcVbSUzTuXXFSA6m7JZ"
+  ],
+  "new_calls": 204,
+  "new_calls_by_stage": {
+    "round1": 156,
+    "round2_student": 24,
+    "round3_clarify": 24
+  },
+  "new_cost_usd": 0.2618095,
+  "new_cost_by_model_usd": {
+    "claude-haiku-4-5-20251001": 0.1150075,
+    "claude-sonnet-4-6": 0.146802
+  },
+  "ledger_total_usd": 24.4857295,
+  "old_pilot_cost_usd": 0.2662735,
+  "logical_tags_shared": 204,
+  "responses_changed": 190,
+  "responses_changed_by_stage": {
+    "round1": 154,
+    "round2_student": 12,
+    "round3_clarify": 24
+  }
+}
